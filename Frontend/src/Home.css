@@ -1,0 +1,56 @@
+.home_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    width: 80%;
+    max-width: 80%;
+    height: 80vh;
+    background-color: rgb(213, 208, 196);
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #a0b3ca;
+    resize: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  
+}
+
+input {
+    height:50px;
+}
+
+.textarea1{
+    height:100px; 
+}
+
+.textarea2{
+    height:150px; 
+}
+
+button{
+    height: 30px;
+    margin: 10px;
+    transition: all ease 1ms;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+button:hover{
+    scale: 1.1;
+    
+}

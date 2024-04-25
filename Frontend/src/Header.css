@@ -1,0 +1,38 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #a0b3ca;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+.button_container{
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+  
+}
+
+.nav_button1{
+    text-decoration: none;
+}
+.nav_button2{
+    text-decoration: none;
+}
+.title >h1{
+    color: rgb(22, 56, 128);
+    margin: 0 20px;
+    
+}
+
+.active-class{
+    color:rgb(10, 10, 10);
+    font-weight: bold;
+    text-decoration: none;
+}
+.non-active-class{
+    text-decoration: none; 
+}
